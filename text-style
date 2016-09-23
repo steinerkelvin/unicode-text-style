@@ -21,7 +21,7 @@ parser = argparse.ArgumentParser(
     description='Style text using Unicode characters.')
 addArg = parser.add_argument
 
-addArg("text",)
+addArg("text", type=lambda s: unicode(s, 'utf8'))
 addArg("-a", "--all", action="store_true", dest="all",
        help="Style all characters (including non-alphanumeric)")
 addArg("-o", "--over",   action="store_true", help="Overline")

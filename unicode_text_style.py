@@ -50,5 +50,5 @@ def style_text(text, char=CHAR_UNDER, a=False):
                 st = style_piece(st, char)
             result.append(st)
 
-        return "".join(result)
+        return u"".join(result)
 
