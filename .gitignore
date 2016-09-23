@@ -1,0 +1,9 @@
+
+.directory
+~*
+
+*.pyc
+
+venv
+build
+
